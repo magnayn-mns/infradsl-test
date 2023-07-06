@@ -13,6 +13,10 @@ jobs:
     steps:
       - name: setup
         run: pwd && ls -lR
+      - name: Do it 1
+        uses: magnayn-mns/infradsl@master
+        with:
+          file: x.infra.kts  
       - name: Do it
         uses: magnayn-mns/infradsl@master
         with:
