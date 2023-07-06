@@ -1,0 +1,17 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  run_infra:
+    runs-on: ubuntu-latest
+    name: Test
+    steps:
+      - name: Do it
+        uses: magnayn-mns/infradsl
+        with:
+          file: script.infra.kts
