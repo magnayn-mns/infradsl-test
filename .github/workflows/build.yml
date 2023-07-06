@@ -12,7 +12,7 @@ jobs:
     name: Test
     steps:
       - name: setup
-        run: pwd && ls -lR
+        run: pwd && ls -lR /home/runner/work/_temp
       - name: Do it 1
         uses: magnayn-mns/infradsl@master
         with:
