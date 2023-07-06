@@ -16,4 +16,4 @@ jobs:
       - name: Do it
         uses: magnayn-mns/infradsl@master
         with:
-          file: /github/home/script.infra.kts
+          file: /github/workspace/script.infra.kts
