@@ -12,6 +12,6 @@ jobs:
     name: Test
     steps:
       - name: Do it
-        uses: magnayn-mns/infradsl
+        uses: magnayn-mns/infradsl@latest
         with:
           file: script.infra.kts
