@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Test
     steps:
+      - name: setup
+        run: pwd && ls -lR
       - name: Do it
         uses: magnayn-mns/infradsl@master
         with:
