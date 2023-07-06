@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Test
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
       - name: setup
         run: pwd && ls -lR /home/runner/work/_temp
       - name: Do it 1
