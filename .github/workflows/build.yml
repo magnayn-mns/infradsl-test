@@ -14,6 +14,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
       - name: Do it
-        uses: magnayn-mns/infradsl@master
+        uses: magnayn-mns/infradsl@latest
         with:
           file: script.infra.kts
